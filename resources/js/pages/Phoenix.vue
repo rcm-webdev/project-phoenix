@@ -3,7 +3,7 @@ import { Head, Link } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Head title="Welcome">
+    <Head title="Phoenix">
         <link rel="preconnect" href="https://rsms.me/" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </Head>
@@ -13,7 +13,7 @@ import { Head, Link } from '@inertiajs/vue3';
                 <div
                     class="flex-1 rounded-br-lg rounded-bl-lg bg-white p-6 pb-12 text-[13px] leading-[20px] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-tl-lg lg:rounded-br-none lg:p-20 dark:bg-[#161615] dark:text-[#EDEDEC] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"
                 >
-                    <h1 class="mb-1 font-medium">Let's get started Welcome Page</h1>
+                    <h1 class="mb-1 font-medium">Let's get started with the Phoenix Page</h1>
                     <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">
                         Laravel has an incredibly rich ecosystem. <br />We suggest starting with the following.
                     </p>
@@ -36,37 +36,6 @@ import { Head, Link } from '@inertiajs/vue3';
                                     class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
                                 >
                                     <span>Documentation</span>
-                                    <svg
-                                        width="{10}"
-                                        height="{11}"
-                                        viewBox="0 0 10 11"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-2.5 w-2.5"
-                                    >
-                                        <path d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001" stroke="currentColor" stroke-linecap="square" />
-                                    </svg>
-                                </a>
-                            </span>
-                        </li>
-                        <li
-                            class="relative flex items-center gap-4 py-2 before:absolute before:top-1/2 before:bottom-0 before:left-[0.4rem] before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A]"
-                        >
-                            <span class="relative bg-white py-1 dark:bg-[#161615]">
-                                <span
-                                    class="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[#e3e3e0] bg-[#FDFDFC] shadow-[0px_0px_1px_0px_rgba(0,0,0,0.03),0px_1px_2px_0px_rgba(0,0,0,0.06)] dark:border-[#3E3E3A] dark:bg-[#161615]"
-                                >
-                                    <span class="h-1.5 w-1.5 rounded-full bg-[#dbdbd7] dark:bg-[#3E3E3A]" />
-                                </span>
-                            </span>
-                            <span>
-                                Check out my new page
-                                <a
-                                    href="http://localhost:8000/phoenix"
-                                    target="_blank"
-                                    class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
-                                >
-                                    <span>Phoenix</span>
                                     <svg
                                         width="{10}"
                                         height="{11}"
