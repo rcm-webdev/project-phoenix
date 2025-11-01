@@ -1,6 +1,7 @@
 # *ClinicOps
 
 ![ClinicOps](/public/images/clinicops.svg)
+
 `Open source` `Healthcare operations platform` `Inventory management system`
 
 ## About
