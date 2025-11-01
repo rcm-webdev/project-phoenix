@@ -16,6 +16,8 @@ const listLinks: { label: string; href: string; icon: IconName }[] = [
     { label: 'Inventory', href: '/inventory', icon: 'package' },
     { label: 'Transactions', href: '/stock', icon: 'arrows' }
 ];
+
+const currentYear = new Date().getUTCFullYear();
 </script>
 
 
@@ -32,9 +34,17 @@ const listLinks: { label: string; href: string; icon: IconName }[] = [
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" class="flex-shrink-0" v-html="icons[link.icon]"></svg>
         {{ link.label }}
     </Link>
+    <div class="w-full border-t-2 border-neutral-800 justify-between"></div>
+    <div class="text-neutral-700 mx-5">
+
+        <p>&#169; {{ currentYear }} ClinicOps</p>
+        <p class="text-sm">Healthcare Operations Platform</p>
+        
+    </div>
     </div>
         
     <slot></slot>
+    
     </div>
     
 </template>
