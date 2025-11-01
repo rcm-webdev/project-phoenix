@@ -4,7 +4,11 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Link href="/">Home page</Link>
-    <Link href="/phoenix">Phoenix page</Link>
+    <div class="flex gap-2">
+        <Link href="/">Dashboard</Link>
+        <Link href="/items">Items</Link>
+        <Link href="/inventory">Inventory</Link>
+        <Link href="/stock">Stock</Link>
+    </div>
     <slot></slot>
 </template>
