@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Item extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['sku', 'name', 'category', 'unit', 'description', 'reorder_level'];
 }
