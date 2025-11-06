@@ -61,13 +61,13 @@ class ItemController extends Controller
         ]);
         $item->update($validated);
 
-        return redirect()->route('items.index')->with('success', 'Item updated');
+        return redirect()->route('items.index')->with('success', 'Item was updated');
     }
 
     public function destroy(Item $item)
     {
         $item->delete();
 
-        return redirect()->route('items.index')->with('success', 'Item deleted');
+        return redirect()->route('items.index')->with('success', 'Item was deleted');
     }
 }
