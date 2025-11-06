@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
+import Flash from '@/components/messages/Flash.vue';
 
 const icons = {
     dashboard:
@@ -53,19 +54,7 @@ const currentYear = new Date().getUTCFullYear();
         </div>
 
         <div class="flex flex-1 flex-col overflow-y-auto bg-neutral-900 text-white">
-            <!-- Flash messages -->
-            <div v-if="$page.props.flash.success" class="mx-4 mt-4 rounded border border-green-600 bg-green-900 px-4 py-3 text-green-300">
-                {{ $page.props.flash.success }}
-            </div>
-            <div v-if="$page.props.flash.error" class="mx-4 mt-4 rounded border border-red-600 bg-red-900 px-4 py-3 text-red-300">
-                {{ $page.props.flash.error }}
-            </div>
-            <div v-if="$page.props.flash.warning" class="mx-4 mt-4 rounded border border-yellow-600 bg-yellow-900 px-4 py-3 text-yellow-300">
-                {{ $page.props.flash.warning }}
-            </div>
-            <div v-if="$page.props.flash.info" class="mx-4 mt-4 rounded border border-blue-600 bg-blue-900 px-4 py-3 text-blue-300">
-                {{ $page.props.flash.info }}
-            </div>
+            <Flash />
 
             <slot></slot>
         </div>
