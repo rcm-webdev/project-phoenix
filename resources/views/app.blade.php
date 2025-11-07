@@ -19,6 +19,7 @@
 </head>
 
 <body class="font-sans antialiased bg-neutral-900">
+    <!-- route() helper function will be globally available -->
     @routes
     @inertia
 </body>
